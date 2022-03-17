@@ -1,4 +1,4 @@
-export const Statistics = (stats) => {
+export const Statistics = ({stats}) => {
     return (
         <section class="statistics">
             <h2 class="title">Upload stats</h2>
