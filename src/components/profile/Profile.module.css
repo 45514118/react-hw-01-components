@@ -2,18 +2,19 @@
   display: flex;
   flex-direction: column;
   background-color: #e7ecf2;
+  width: 180px;
+  padding: 24px 30px 16px;
+  border: 1px solid #646464;
+  border-radius: 4px;
+  background-color: #fff;
+  margin: 80px auto;
 }
 .description {
   display: flex;
   flex-direction: column;
-  margin-left: auto;
-  margin-right: auto;
+
   justify-content: center;
   align-items: center;
-  width: 180px;
-  padding: 24px 30px 16px;
-  border: 1px solid #646464;
-  background-color: #fff;
 }
 .avatar {
   width: 80px;
@@ -23,5 +24,27 @@
 .name {
   font-size: 20px;
   font-weight: 700;
-  line-height: 1.2;
+  color: #122236;
+}
+.tag,
+.location {
+  font-size: large;
+  font-weight: 400;
+  color: #768696;
+}
+.stats {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-inline-start: 0;
+}
+.stats__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  border: 1px solid #646464;
 }
