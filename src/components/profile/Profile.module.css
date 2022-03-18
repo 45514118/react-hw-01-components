@@ -1,6 +1,7 @@
 .profile {
   display: flex;
   flex-direction: column;
+  background-color: #e7ecf2;
 }
 .description {
   display: flex;
@@ -12,6 +13,7 @@
   width: 180px;
   padding: 24px 30px 16px;
   border: 1px solid #646464;
+  background-color: #fff;
 }
 .avatar {
   width: 80px;
