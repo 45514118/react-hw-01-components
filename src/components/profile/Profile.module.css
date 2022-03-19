@@ -40,7 +40,14 @@
   padding: 16px 8px;
   border-right: 1px solid rgba(0, 0, 0, 0.1);
   border-top: 1px solid rgba(0, 0, 0, 0.1);
-  background-color: rgb(235, 237, 240);
+  background-color: #f3f6f9;
+}
+.stats__item:first-child {
+  border-bottom-left-radius: 4px;
+}
+.stats__item:last-child {
+  border-bottom-right-radius: 4px;
+  border-right: 0;
 }
 .label {
   font-size: 12px;
