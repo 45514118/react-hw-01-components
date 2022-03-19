@@ -1,50 +1,53 @@
 .profile {
-  display: flex;
-  flex-direction: column;
-  background-color: #e7ecf2;
-  width: 180px;
-  padding: 24px 30px 16px;
-  border: 1px solid #646464;
-  border-radius: 4px;
+  max-width: 240px;
+  margin: 24px auto 16px;
+  box-shadow: rgb(0 0 0 / 75%) 0px 0px 4px 0px;
   background-color: #fff;
-  margin: 80px auto;
+  border-radius: 4px;
 }
 .description {
-  display: flex;
-  flex-direction: column;
-
-  justify-content: center;
-  align-items: center;
+  text-align: center;
+  padding: 32px 16px 8px 16px;
 }
 .avatar {
-  width: 80px;
-  border: 1px solid #646464;
+  width: 104px;
   border-radius: 50%;
+  margin: 0 auto;
+  margin-bottom: 16px;
 }
 .name {
-  font-size: 20px;
-  font-weight: 700;
+  font-size: 24px;
   color: #122236;
 }
 .tag,
 .location {
-  font-size: large;
-  font-weight: 400;
+  font-size: 14px;
+  margin-bottom: 1rem;
   color: #768696;
 }
 .stats {
   list-style-type: none;
+  width: 100%;
   display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  padding-inline-start: 0;
+  padding-inline-start: 0px;
 }
 .stats__item {
+  width: 33.3%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  -webkit-box-align: center;
   align-items: center;
-  width: 80px;
-  border: 1px solid #646464;
+  padding: 16px 8px;
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  background-color: rgb(235, 237, 240);
+}
+.label {
+  font-size: 12px;
+  margin-bottom: 8px;
+  color: #768696;
+}
+.quantity {
+  font-weight: 700;
+  color: #122236;
 }
