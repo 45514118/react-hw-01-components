@@ -22,7 +22,7 @@ export const App = () => {
       />
       <TransactionHistory
         items={transactions}
-      />;
+      />
       <FriendList
         friends={friends}
       />

@@ -29,7 +29,6 @@
   list-style-type: none;
   width: 100%;
   display: flex;
-  padding-inline-start: 0px;
 }
 .stats__item {
   width: 33.3%;

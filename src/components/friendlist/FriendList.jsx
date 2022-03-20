@@ -1,11 +1,12 @@
-export const FriendList = ({friends}) => {
+import style from './FriendList.module.css'
+
+export const FriendList = ({ friends }) => {
     return (
-        <ul class="friend-list">
+        <ul className={style.friend_list}>
             {friends.map(friend =>
-                <li class="item" key={friend.id}>
-                    <span class="status"></span>
-                    <img class="avatar" src={friend.avatar} alt="User avatar" width="48" />
-                    <p class="name">{friend.name}</p>
+                <li className={style.item} key={friend.id}>
+                    <img className={style.avatar} src={friend.avatar} alt="User avatar" width="48" style={{borderColor: friend.isOnline ? "green" : "gray"}}/>
+                    <p className="name">{friend.name}</p>
                 </li>
             )}
         </ul>
