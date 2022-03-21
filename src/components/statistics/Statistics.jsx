@@ -1,9 +1,9 @@
 import style from './Statistics.module.css'
 
-export const Statistics = ({ stats }) => {
+export const Statistics = ({ stats, titleName }) => {
     return (
         <div className={style.statistics}>
-            <h2 className={style.title}>Upload stats</h2>
+            <h2 className={style.title}>{titleName}</h2>
             <ul className={style.stat__list}>
                 {stats.map(stat => 
                     <li className={style.item} key={stat.id} style={{backgroundColor: RandomHexColor()}}>
