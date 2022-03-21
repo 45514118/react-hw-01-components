@@ -18,7 +18,7 @@ export const App = () => {
         stats={user.stats}
       />
       <Statistics
-        stats={data}
+        stats={data} titleName={"Upload stats"}
       />
       <TransactionHistory
         items={transactions}
